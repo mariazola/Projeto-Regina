@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-image: url(primeiro.avif);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 40px;
+    padding-bottom: 60px ;
+
+    
+}
+
+.secao{
+   margin-bottom: 60px;
+}
+
+.navegacao{
+    display: flex;
+    padding: 60px;
+   justify-content: space-around;
+  
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.inicio{
+    line-height: 1.6;
+    padding: 50px;
+    margin-left: 30%;
+    margin-right: 40%;
+}
+
+h1{
+    font-size:xx-large;
+    line-height: 1.2;
+}
+ .botao{
+    display: inline-block;
+    background-color: #6DA5C0;
+   
+    border: 16px;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+ }
+
+ .empresa{
+    margin-top: 60px;
+    position: absolute;
+    left: 600px;
+    color: black;
+    padding: 16px;
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-left: 40px;
+    width: 400px;
+    height: 500px;
+    border: 10px solid #398488;
+    height: 400px;
+ }
+
+ img{
+   margin-left: 10%;
+    
+ }
+ p {
+    text-align: justify;
+    hyphens: auto;
+}
+h2{
+    text-align: center;
+
+}
+
+.par{
+    color: black;
+    margin-left: 47%;
+    margin-right: 50%;
+    margin-bottom: 50px;
+}
+
+
+ .servicos{
+    color: black;
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+
+ }
+
+ .trafego{
+background-color: #05161a;
+color: #fff;
+width: 400px;
+padding: 30px;
+height: 400px;
+ }
+
+ 
+ .branding{
+    background-color: #072E33;
+    color: #fff;
+    width: 400px;
+    padding: 30px;
+    height: 400px;
+     }
+
+     .midias{
+        background-color: #0c7075;
+        color: #fff;
+        width: 400px;
+        padding: 30px;
+        height: 400px;
+         }
+
+         .seo{
+            background-color: #398488;
+            color: #fff;
+            width: 400px;
+            padding: 30px;
+            height: 400px;
+             }
+
+             
+    
+             .clientes{
+                background-color: #dae9ec;
+                list-style-type: none;
+                color: #0e0101;
+                padding: 30px;
+                margin-top: 50px;
+
+             }
+
+             ul{
+                list-style-type: none;
+                display: flex;
+                justify-content: space-around;
+             }
+
+             .tituloContato{
+background-color: #398488 ;
+text-align: center;
+padding-top: 32px;
+color: black;
+             }
+
+             .contato{
+                background-color:#398488;;
+              
+                color: #fff;
+                width: 100%;
+                height: 500px;
+                display: flex;
+                justify-content: center;
+             }
+
+             #conteinerContato{
+                display: flex;
+                height: 350px;
+                width: 1000px;
+                margin-top: 100px;
+                
+                
+             }
+
+             #conteinerContato div{
+                height: 100%;
+                width: 100%;
+                /* background-image: linear-gradient(to right, #ff7e5f, blue); */
+                
+             }
+
+             #conteinerContato div{
+                height: 50%;
+                width: 100%;
+                /* background-image: linear-gradient(to bottom, red, blue); */
+                
+             }
+
+             /* input, textarea {
+               width: 60%; /* Faz com que todos tenham a mesma largura */
+               /* max-width: 400px; /* Define um limite máximo para não ficarem muito grandes */
+               /* padding: 5px; Adiciona um espaçamento interno */
+            
+               /* font-size: 14px; Ajusta o tamanho do texto
+           } */ 
+
+           input{
+            width: 46%;
+           }
+           
+
+             footer{
+               color: #0e0101;
+               align-items: center;
+             }
+             footer a{
+               text-decoration: none;
+               color: #0e0101;
+               margin-left: auto;
+               margin-right: auto;
+             }
+
+
